@@ -2,3 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+   
+    overflow-x: hidden;
+}
+.container1 {
+    max-width: 1200px;
+    margin: 50px 30px;
+    
+}
+
+.react{
+    animation: reactA 5s infinite;
+}
+
+@keyframes reactA {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.listUl{
+    list-style-type: square;
+    padding-left: 50px;
+}
+@media (max-width:639px) {
+   .container1{
+    margin: 50px 10px;
+   } 
+}
