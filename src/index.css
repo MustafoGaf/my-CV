@@ -22,10 +22,7 @@ body{
   to {transform: rotate(360deg);}
 }
 
-.listUl{
-    list-style-type: square;
-    padding-left: 50px;
-}
+
 @media (max-width:639px) {
    .container1{
     margin: 50px 10px;

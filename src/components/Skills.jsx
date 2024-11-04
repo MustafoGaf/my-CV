@@ -4,7 +4,7 @@ export default function Skills(){
     return (
         <section className="container1 mx-auto  my-16">
 
-            <h1 className="text-4xl font-bold text-white mb-10 text-right md:text-center">Навыки</h1>
+            <h1 className="text-4xl font-bold text-white mb-10 text-right md:text-left">Навыки</h1>
             <div className="flex items-center justify-center flex-col">
                 <ProgressBar skill={"HTML"} percent={100} img={"/html.png"} />
                 <ProgressBar skill={"CSS"} percent={100} img={"/css.png"} />

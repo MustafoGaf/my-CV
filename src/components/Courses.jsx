@@ -2,7 +2,7 @@ export default function Courses(){
     return (
         <section className="container1 mx-auto  my-16 relative md:text-center">
           
-                <h1 className="text-4xl font-bold text-white mb-10 ">Kурсы</h1>
+                <h1 className="text-4xl font-bold text-white mb-10 md:text-left">Kурсы</h1>
         <div className="flex items-center justify-center gap-10 md:flex-col">
             <div>
                 <h1 className="text-xl font-bold text-white">Aкселератор навыков "ILMHONA"</h1>

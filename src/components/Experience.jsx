@@ -1,14 +1,14 @@
 export default function Experience(){
     return (
-        <section className="container1 mx-auto  my-16 relative">
+        <section className="container1 my-16 relative">
           
-                <h1 className="text-4xl font-bold text-white mb-10 md:text-center">Опыт работы</h1>
+                <h1 className="text-4xl font-bold text-white mb-10 md:text-lefy">Опыт работы</h1>
         <div className="flex items-center justify-center">
-            <div>
+            <div className="">
                 <h1 className="text-xl font-bold text-white">ЗАО "ТТМобайл" МегаФон Таджикистан</h1>
                 <p className="text-gray-100 font-medium text-white">Технической поддержки пользователей</p>
                 <p className="text-gray-200  text-white">июнь 2023 - настоящее время</p>
-                    <ul className="text-[#bababa] listUl">
+                    <ul className="text-[#bababa] listUl list-[square] pl-[50px]">
                         <li>
                             Разработка интерфейсов для внутренних систем компании.
                         </li>
