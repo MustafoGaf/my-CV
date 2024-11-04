@@ -1,6 +1,6 @@
 export default function Education(){
     return (
-        <section className="container1 mx-auto  my-16 relative ">
+        <section className="container1    my-20 relative ">
           
                 <h1 className="text-4xl font-bold text-white mb-10 text-right md:text-center">Образование</h1>
         <div className="flex items-center justify-center gap-10 md:flex-col md:text-center">

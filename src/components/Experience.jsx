@@ -21,8 +21,8 @@ export default function Experience(){
                     </ul>
             </div>
         </div>
-        <div className="absolute top-20 right-[-70px] transform scale-90 rotate-[45deg] md:relative md:rotate-[0deg] md:top-0 ">
-            <img src="https://jobmf.tj/static/media/logo.55766aa5735a8e0b22bf.png" alt="MegaFon" className="w-72 sm:w-60" />
+        <div className="absolute top-20 right-[-70px] transform scale-90 rotate-[45deg] md:relative md:rotate-[0deg] md:top-0 md:w-[200px]">
+            <img src="https://jobmf.tj/static/media/logo.55766aa5735a8e0b22bf.png" alt="MegaFon" className="w-72 sm:w-full" />
         </div>
         <div className="absolute top-20 left-[10px] transform scale-90 md:hidden">
             <img src="https://jobmf.tj/static/media/Mind.522810a9a172b2659ec8a9c4fcbef4d9.svg" alt="MegaFon" className="w-32" />
